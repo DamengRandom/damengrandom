@@ -1,17 +1,24 @@
 import Text from "../components/Text";
+import Head from "next/head";
 
 export default function Index() {
   return (
-    <div className="container">
+    <main className="container">
+      <Head>
+        <title>Dameng - DamengRandom</title>
+        <meta name="author" content="dameng"></meta>
+        <meta name="keywords" content="dameng, damengrandom, speedi, tipify(DM), damon" />
+        <meta name="description" content="please come to damengrandom.now.sh" />
+      </Head>
       <div className="section fit">
         <div className="table">
           <div className="table-content">
-            <Text className="theme-font theme-text">
-              G'day !! I am <a href="https://github.com/DamengRandom" target="_blank">Damengradom</a>, who is a web developer. I developed some side projects
+            <Text className="theme-font theme-text" aria-hidden="true">
+              G'day !! I am <a href="https://github.com/DamengRandom" target="_blank" aria-hidden="true">Damengradom</a>, who is a web developer. I developed some side projects
             </Text>
-            <Text className="theme-font theme-text pl-12"><a href="https://speedi.netlify.app/" target="_blank">Speedi</a>, </Text>
-            <Text className="theme-font theme-text"><a href="https://dm-tipify.netlify.app/" target="_blank">Tipify(DM)</a> </Text>
-            <Text className="theme-font theme-text">for fun. I love esports games 🎮, movies 🍿, jogging 👟 ..</Text>
+            <Text className="theme-font theme-text pl-12" aria-hidden="true"><a href="https://speedi.netlify.app/" target="_blank" aria-hidden="true">Speedi</a>, </Text>
+            <Text className="theme-font theme-text" aria-hidden="true"><a href="https://dm-tipify.netlify.app/" target="_blank" aria-hidden="true">Tipify(DM)</a> </Text>
+            <Text className="theme-font theme-text" aria-hidden="true">for fun. I love esports games 🎮, movies 🍿, jogging 👟 ..</Text>
           </div>
         </div>
       </div>
@@ -97,6 +104,6 @@ export default function Index() {
         }
       `}
       </style>
-    </div>
+    </main>
   )
 };

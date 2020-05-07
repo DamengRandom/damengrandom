@@ -10,7 +10,9 @@
     "export": "next build && next export"
   },
   "keywords": [
-    "damengrandom"
+    "damengrandom",
+    "damon",
+    "dameng"
   ],
   "author": "Dameng",
   "license": "ISC",

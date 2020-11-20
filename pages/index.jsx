@@ -1,15 +1,19 @@
 import Text from "../components/Text";
-import Head from "next/head";
+import { Helmet } from "react-helmet";
 
 export default function Index() {
   return (
     <main className="container">
-      <Head>
+      <Helmet>
         <title>Dameng - DamengRandom</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="dameng"></meta>
         <meta name="keywords" content="dameng, damengrandom, speedi, tipify(DM), damon" />
         <meta name="description" content="please come to damengrandom.now.sh" />
-      </Head>
+        <meta property="og:title" content="damengrandom" key="ogtitle" />
+        <meta property="og:description" content="please come to damengrandom.now.sh" key="ogdesc" />
+        <meta property="og:site_name" content="damengrandom" key="ogsitename" />
+      </Helmet>
       <div className="section fit">
         <div className="table">
           <div className="table-content">

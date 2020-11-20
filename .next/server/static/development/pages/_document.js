@@ -882,6 +882,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ "./node_modules/next/document.js");
 /* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-helmet */ "react-helmet");
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_helmet__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next-seo */ "next-seo");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/damonwu/damengworks/damengrandom/pages/_document.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -894,6 +898,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+
+
 class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
   static async getInitialProps(ctx) {
     const initialProps = await next_document__WEBPACK_IMPORTED_MODULE_1___default.a.getInitialProps(ctx);
@@ -901,38 +907,47 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
   }
 
   render() {
-    return __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Html"], {
+    return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_3__["NextSeo"], {
+      title: "DamengRandom",
+      description: "https://damengrandom.now.sh",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 9
+      }
+    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Html"], {
       lang: "en",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11,
-        columnNumber: 7
-      }
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 18,
         columnNumber: 9
       }
-    }, __jsx("meta", {
-      httpEquiv: "Content-Type",
-      content: "text/html; charset=UTF-8",
+    }, __jsx(react_helmet__WEBPACK_IMPORTED_MODULE_2__["Helmet"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
+        lineNumber: 19,
         columnNumber: 11
       }
-    }), __jsx("meta", {
+    }, __jsx("meta", {
       name: "viewport",
       content: "width=device-width, initial-scale=1.0",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14,
-        columnNumber: 11
+        lineNumber: 20,
+        columnNumber: 13
+      }
+    }), __jsx("meta", {
+      httpEquiv: "Content-Type",
+      content: "text/html; charset=UTF-8",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 13
       }
     }), __jsx("link", {
       href: "https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap",
@@ -940,31 +955,61 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
-        columnNumber: 11
+        lineNumber: 22,
+        columnNumber: 13
+      }
+    }), __jsx("meta", {
+      property: "og:title",
+      content: "damengrandom",
+      key: "ogtitle",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 13
+      }
+    }), __jsx("meta", {
+      property: "og:description",
+      content: "please come to damengrandom.now.sh",
+      key: "ogdesc",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 13
+      }
+    }), __jsx("meta", {
+      property: "og:site_name",
+      content: "damengrandom",
+      key: "ogsitename",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 13
       }
     })), __jsx("body", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17,
-        columnNumber: 9
+        lineNumber: 27,
+        columnNumber: 11
       }
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18,
-        columnNumber: 11
+        lineNumber: 29,
+        columnNumber: 13
       }
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19,
-        columnNumber: 11
+        lineNumber: 30,
+        columnNumber: 13
       }
-    })));
+    }))));
   }
 
 }
@@ -982,6 +1027,17 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
 
 module.exports = __webpack_require__(/*! private-next-pages/_document.jsx */"./pages/_document.jsx");
 
+
+/***/ }),
+
+/***/ "next-seo":
+/*!***************************!*\
+  !*** external "next-seo" ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-seo");
 
 /***/ }),
 
@@ -1004,6 +1060,17 @@ module.exports = require("prop-types");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-helmet":
+/*!*******************************!*\
+  !*** external "react-helmet" ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-helmet");
 
 /***/ }),
 

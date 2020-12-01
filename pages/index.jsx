@@ -10,7 +10,6 @@ export default function Index() {
   const handleToggle = () => {
     setToggleMode(!toggleMode);
     if (typeof window !== "undefined") {
-      console.log('here?');
       localStorage.setItem("darkMode", !toggleMode);
     }
   };

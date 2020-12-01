@@ -12,7 +12,9 @@
   "keywords": [
     "damengrandom",
     "damon",
-    "dameng"
+    "dameng",
+    "damon",
+    "damon wu"
   ],
   "author": "Dameng",
   "license": "ISC",
@@ -22,14 +24,14 @@
     "next-fonts": "^1.0.3",
     "node-sass": "^5.0.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "styled-components": "^5.1.0"
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "elliptic": ">=6.5.3",
     "next-seo": "^4.17.0",
-    "react-helmet": "^6.1.0",
     "object-path": ">=0.11.5",
-    "serialize-javascript": ">=3.1.0",
-    "elliptic": ">=6.5.3"
+    "react-helmet": "^6.1.0",
+    "rsuite": "^4.8.5",
+    "serialize-javascript": ">=3.1.0"
   }
 }

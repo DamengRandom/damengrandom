@@ -1,9 +1,35 @@
-import Text from "../components/Text";
 import { Helmet } from "react-helmet";
+import { Loader } from 'rsuite';
+// components
+import Text from "../components/Text";
 
 export default function Index() {
-  return (
-    <main className="container">
+  const loadingText = "Flowers will bloom again, people will never be young again (花有重开日 人无再少年) ..";
+  const [toggleMode, setToggleMode] = React.useState(false);
+  const [loader, setLoader] = React.useState(true);
+  const handleToggle = () => {
+    setToggleMode(!toggleMode);
+    if (typeof window !== "undefined") {
+      console.log('here?');
+      localStorage.setItem("darkMode", !toggleMode);
+    }
+  };
+
+  React.useEffect(() => {
+    if (typeof window !== "undefined") {
+      setToggleMode(JSON.parse(localStorage.getItem("darkMode")));
+      setTimeout(() => {
+        setLoader(false);
+      }, 1000);
+    }
+  }, []);
+
+  return loader ? (
+    <div style={{fontFamily: "monospace", fontSize: "1.2rem"}}>
+      <Loader center content={loadingText} />
+    </div>
+  ) : (
+    <div className="container theme-mode">
       <Helmet>
         <title>Dameng - DamengRandom</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,11 +44,24 @@ export default function Index() {
         <div className="table">
           <div className="table-content">
             <Text className="theme-font theme-text" aria-hidden="true">
-              G'day !! I am <a href="https://github.com/DamengRandom" target="_blank" aria-hidden="true">Damengradom</a>, who is a web developer. I developed some side projects
+              <b onClick={handleToggle}>{toggleMode ? "G'day" : "Hello"}</b>~~ I am {" "}
+              <a
+                aria-label="Damengradom"
+                href="https://github.com/DamengRandom"
+                target="_blank">
+                Damengradom
+              </a>,{" "}
+              who is a web developer. I developed some side projects
             </Text>
-            <Text className="theme-font theme-text pl-12" aria-hidden="true"><a href="https://speedi.netlify.app/" target="_blank" aria-hidden="true">Speedi</a>, </Text>
-            <Text className="theme-font theme-text" aria-hidden="true"><a href="https://dm-tipify.netlify.app/" target="_blank" aria-hidden="true">Tipify(DM)</a> </Text>
-            <Text className="theme-font theme-text" aria-hidden="true">for fun. I love esports games 🎮, movies 🍿, jogging 👟 ..</Text>
+            <Text className="theme-font theme-text pl-12" aria-hidden="true">
+              <a aria-label="Speedi" href="https://speedi.netlify.app/" target="_blank" aria-hidden="true">Speedi</a>,{" "}
+            </Text>
+            <Text className="theme-font theme-text" aria-hidden="true">
+              <a aria-label="Tipify(DM)" href="https://dm-tipify.netlify.app/" target="_blank" aria-hidden="true">Tipify(DM)</a>{" "}
+            </Text>
+            <Text className="theme-font theme-text" aria-hidden="true">
+              for fun. I love esports games 🎮, movies 🍿, jogging 👟 ..
+            </Text>
           </div>
         </div>
       </div>
@@ -34,6 +73,10 @@ export default function Index() {
           overflow: hidden;
         }
 
+        b {
+          cursor: pointer;
+        }
+
         #__next {
           height: 100%;
         }
@@ -41,6 +84,16 @@ export default function Index() {
         .container {
           height: 100%;
           overflow: auto;
+        }
+
+        .theme-mode {
+          background-color: ${toggleMode ? '#121212' : '#fff'};
+          color: ${toggleMode ? '#fff' : '#121212'};
+        }
+
+        .theme-mode a {
+          color: ${toggleMode ? '#fff' : '#121212'};
+          border-bottom: 3px solid ${toggleMode ? '#fff' : '#121212'};
         }
 
         .section {
@@ -108,6 +161,6 @@ export default function Index() {
         }
       `}
       </style>
-    </main>
+    </div>
   )
 };

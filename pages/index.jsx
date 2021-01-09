@@ -59,7 +59,7 @@ export default function Index() {
               <a aria-label="Tipify(DM)" href="https://dm-tipify.netlify.app/" target="_blank" aria-hidden="true">Tipify(DM)</a>{" "}
             </Text>
             <Text className="theme-font theme-text" aria-hidden="true">
-              for fun. I love esports games 🎮, movies 🍿, jogging 👟 ..
+              for fun. I love games 🎮, movies 🍿, jogging 👟, blockchain 🔗 ..
             </Text>
           </div>
         </div>

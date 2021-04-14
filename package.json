@@ -31,7 +31,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "elliptic": ">=6.5.3",
+    "elliptic": ">=6.5.4",
     "next-seo": "^4.17.0",
     "object-path": ">=0.11.5",
     "react-helmet": "^6.1.0",

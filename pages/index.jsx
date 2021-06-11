@@ -33,7 +33,7 @@ export default function Index() {
         <title>Dameng - DamengRandom</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="dameng"></meta>
-        <meta name="keywords" content="dameng, damengrandom, speedi, tipify(DM), damon, dameng random, random, meng, da, damon wu" />
+        <meta name="keywords" content="dameng, damengrandom, tipify, damon, harley corgi, HarleyCorgi, harleycorgi, random, meng, da, damon wu, DamengRandom, dameng random, rand, roller, roll, Roller" />
         <meta name="description" content="please come to damengrandom.now.sh" />
         <meta property="og:title" content="damengrandom" key="ogtitle" />
         <meta property="og:description" content="please come to damengrandom.now.sh" key="ogdesc" />
@@ -53,10 +53,10 @@ export default function Index() {
               who is a web developer. I developed some side projects
             </Text>
             <Text className="theme-font theme-text pl-12" aria-hidden="true">
-              <a aria-label="Speedi" href="https://speedi.netlify.app/" target="_blank" aria-hidden="true">Speedi</a>,{" "}
+              <a aria-label="Roller" href="https://speedi.netlify.app/" target="_blank" aria-hidden="true">Roller</a>,{" "}
             </Text>
             <Text className="theme-font theme-text" aria-hidden="true">
-              <a aria-label="Tipify(DM)" href="https://dm-tipify.netlify.app/" target="_blank" aria-hidden="true">Tipify(DM)</a>{" "}
+              <a aria-label="Tipify" href="https://technotes.vercel.app" target="_blank" aria-hidden="true">Tipify</a>{" "}
             </Text>
             <Text className="theme-font theme-text" aria-hidden="true">
               for fun. I love games 🎮, movies 🍿, jogging 👟, <strike>blockchain 🔗</strike>, bartending 🍹 ..

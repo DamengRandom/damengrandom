@@ -26,20 +26,23 @@
 
 ---
 
-### 📊 My knowledge point summary
+### 📊 My Knowledge Point Summary
 
-- [System Design Notes](https://github.com/DamengRandom/system-design-notes) – Keep adding the system design notes ~
-- [Some random notes](https://github.com/DamengRandom/random-notes) - Keep adding some notes so I could recall some random knowledge points ~
-- [Initial NextJS note](https://github.com/DamengRandom/nextjs-recalls) - Just begin with nextjs
-- [TypeScript recall notes](https://github.com/DamengRandom/ts-2025-recalls) - Before interview, can recall some of this ~
-- [React little notes](https://github.com/DamengRandom/react-tricks-recalls-2025) - 2025 version for React tiny notes (Just mark something I forgot before)
-- [Coding patterns notes](https://github.com/DamengRandom/code-patterns-recall-2025) - Recording the better practices for coding
-- [Tiny solid principle notes](https://github.com/DamengRandom/solid-principle-recalls) - Will do change for this note (maybe merged into other notes)
-- [Kubernetes study & practice notes](https://github.com/DamengRandom/ckad-try-2025) - For practise som kubernetes configurations + commands
-- [Jenkins recall notes](https://github.com/DamengRandom/damon-jenkins-recall-2024) - Recall some Jenkins knwoledge points
-- [Initial webpack study notes](https://github.com/DamengRandom/webpack-node-react-recall-2022) - Outdated maybe ..
-- [Simple git notes](https://github.com/DamengRandom/cherry-pick-recall) - For some git knowledge points recalls (Keep adding it~)
+Here are some personal note collections I keep updating and revisiting:
+
+- 📘 [**System Design Notes**](https://github.com/DamengRandom/system-design-notes) — System design concepts and patterns.
+- 🧠 [**Random Notes**](https://github.com/DamengRandom/random-notes) — Bits of knowledge from various areas.
+- ⚛️ [**React Tricks 2025**](https://github.com/DamengRandom/react-tricks-recalls-2025) — Quick React tips and reminders.
+- 💻 [**Next.js Notes**](https://github.com/DamengRandom/nextjs-recalls) — Early notes on using Next.js.
+- 📝 [**TypeScript Recall**](https://github.com/DamengRandom/ts-2025-recalls) — Notes for brushing up before interviews.
+- 🧩 [**Coding Patterns**](https://github.com/DamengRandom/code-patterns-recall-2025) — Best practices and design patterns.
+- 📐 [**SOLID Principles**](https://github.com/DamengRandom/solid-principle-recalls) — Refactoring and design thinking.
+- ☸️ [**Kubernetes CKAD Notes**](https://github.com/DamengRandom/ckad-try-2025) — Hands-on Kubernetes config & commands.
+- 🛠️ [**Jenkins Recall**](https://github.com/DamengRandom/damon-jenkins-recall-2024) — Jenkins basics and automation workflows.
+- 📦 [**Webpack & Node Notes**](https://github.com/DamengRandom/webpack-node-react-recall-2022) — Initial concepts (a bit outdated).
+- 🔀 [**Git Cherry Pick Notes**](https://github.com/DamengRandom/cherry-pick-recall) — Useful Git tips and recalls.
 
 ---
+
 
 (If you like my portfolio, please give me a star for this repository, many thanks ~~)

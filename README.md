@@ -44,5 +44,13 @@ Here are some personal note collections I keep updating and revisiting:
 
 ---
 
+### Todos
+
+<p align="left">
+Doing an AI project at moment, will keep updated ~
+</p>
+
+---
+
 
 (If you like my portfolio, please give me a star for this repository, many thanks ~~)

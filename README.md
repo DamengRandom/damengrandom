@@ -13,7 +13,7 @@
 - 🔭 I’m currently working on **Vue/React UI projects + some AI stuffs**
 - 🌱 I’m learning **Next.js, GraphQL, Prisma, Kubernetes and AI techs**
 - 👯 I’m looking to collaborate on **open-source frontend projects**
-- 📫 How to reach me: **damonwuaws@gmail.com**
+- 📫 How to reach me (Discord 🏕): **mundo5568**
 - ⚡ Fun fact: I love to work on some fancy projects ~
 
 ---

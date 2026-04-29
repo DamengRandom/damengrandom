@@ -21,7 +21,7 @@
 ### 🛠️ Languages and Tools
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,redux,vue,pinia,ts,js,html,scss,css,tailwind,bootstrap,docker,kubernetes,git,github,elasticsearch,vite,prisma,postman,bash,jenkins,grafana,jest,postgresql,styledcomponents,postman,npm,mongodb" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,nodejs,react,vue,npm,vite,git,bash,postgresql,docker,kubernetes,jenkins" />
 </p>
 
 ---

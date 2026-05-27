@@ -47,7 +47,7 @@ Here are some personal note collections I keep updating and revisiting:
 ### Doing 🚀
 
 <p align="left">
-  Please check my current AI agent side project <a href="https://github.com/DamengRandom/oh-my-workers" target="_blank">oh-my-workers</a> (Your star is the biggest motivasation for me to keep going 🙏)
+  Please check my current AI agent side project <a href="https://github.com/DamengRandom/oh-my-workers" target="_blank">oh-my-workers</a> (Your star is the biggest motivation for me to keep going 🙏)
 </p>
 
 ---

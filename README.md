@@ -1,7 +1,7 @@
 ### G'day/Aloha/Hello there 🤗,
 
 <h1 align="center">Hi 👋, I'm Damon Wu</h1>
-<h3 align="center">A passionate frontend developer from Australia</h3>
+<h3 align="center">A passionate software engineer from Sydney</h3>
 <h5 align="center">Welcome to <a href="https://dameng-pager.vercel.app">damengrandom </a> repository, this is damengrandom profilio repository.</h5>
 
 <p align="center">

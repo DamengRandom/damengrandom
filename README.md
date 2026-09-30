@@ -41,21 +41,21 @@ Here are some personal note collections I keep updating and revisiting:
 
 ---
 
-I am writing this is for telling myself and my kids after 20 years: 
+I am writing this to tell myself and my kids, 20 years from now:
 
-I am currently so confused about Artificial Intelligence, as a Software Engineer, my true feeling of utilising AI for my daily working and personal life:
+I am currently very confused about Artificial Intelligence. As a software engineer, here is my true feeling about using AI in my daily work and personal life:
 
-I firmly believe AI in future (sooner or later) will replace software engineers (maybe you will feel like I am wrong), this occupation will become like a history. and current stage is more like the human beings started to learn how to use electricity, but electricity might bring some incidents stage. Not stable, because we are exploring this new technology day by day.
+I firmly believe that AI in the future (sooner or later) will replace software engineers (maybe you will think I am wrong); this occupation will become history. The current stage is more like when human beings started to learn how to use electricity, but electricity could also cause accidents. It is not stable, because we are exploring this new technology day by day.
 
-At moment, many news and posts are generating 2 different voices, one side believe AI will be able to take over humans to write production-ready code and working with variety of projects and even self-maintained by the multi-agents based agentic workflow. And another voice is also reasonable which is AI cannot replace human brains, because human design the program and write more readable and well designed code logics, AI at very begnning is able to create some fancy projects, but after day by day, new requirements have been required, AI starts to create more not so very structured code and hard to be maintained.
+At the moment, many news articles and posts express two different views. One side believes AI will be able to take over from humans, write production-ready code, work on a variety of projects, and even maintain itself through multi-agent-based agentic workflows. Another view is also reasonable: AI cannot replace human brains, because humans design programs and write more readable, well-designed code logic. At the very beginning, AI can create some fancy projects, but as days go by and new requirements are added, AI starts to produce code that is less structured and hard to maintain.
 
-As a software engineer, my true feeling is: both voices are right with solid practical proofs.
+As a software engineer, my true feeling is that both views are right, and both have solid practical evidence.
 
-However, my current question is: do we really need to keep learning programming anymore? Is that possible in future, humans designed one AI dedicate programming language, and each agents will be able to self-learning and then writing agentic styling code in order to help humans to complete the tasks? Whats the purpose of writing code? Writing code for building something, right? Then, if we build something, we build by ourselves or we create a tool to use that tool to achieve our goal? Or as a hobby, I am extremely enjoyed of writing code, I am creating something I am proud of myself?
+However, my current question is: do we really need to keep learning programming anymore? Is it possible that in the future, humans will design an AI-dedicated programming language, and each agent will be able to self-learn and then write agentic-style code to help humans complete tasks? What is the purpose of writing code? We write code to build something, right? Then, if we build something, do we build it ourselves, or do we create a tool and use that tool to achieve our goal? Or is it a hobby? I extremely enjoy writing code; I am creating something I am proud of.
 
-I am keep thinking those questions and until 30/09/2026. I still no idea which voice is correct and whats the right answer for those questions. the answer is unknown so far.
+I keep thinking about these questions, and as of 30/09/2026, I still have no idea which view is correct or what the right answer to those questions is. The answer is unknown so far.
 
-Thus, I decided to do half AI (Do repeat jobs, find some new kills, tools, techs to enhance work efficency) and half hand-coding (think how to resolve business pains and issues, and design programs and code refactors and etc).
+Thus, I decided to go half AI (do repetitive jobs; find new skills, tools, and technologies to enhance work efficiency) and half hand-coding (think about how to resolve business pain points and issues, and design programs, refactor code, etc.).
 
 ---
 
